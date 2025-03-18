@@ -1,0 +1,34 @@
+.side-bar{
+    height: 700px;
+    width: fit-content;
+    background-color: #1F1F1F;
+    border: 0.5px solid grey;
+    display: inline-block;
+    position: fixed;
+    color: white;
+    border-radius: 10px 5px 5px  10px;
+}
+.Icon{
+    size: 259px 55px; 
+}
+.search{
+    
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+search:hover{
+    cursor: context-menu;
+}
+.home{
+    
+    width: 30px;
+    height: 10px;
+    padding-bottom: 20px;
+}
+.browse{
+    padding-top: 20px;
+}
+
+.music{
+    padding-top: 310px;
+}

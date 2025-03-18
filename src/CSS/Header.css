@@ -1,0 +1,120 @@
+.flex-container{
+    width: 1180px;
+    height: 54px;
+    background-color: #2D2D2DE0;
+    top: 0px;
+    right: 0px;
+    left: 259px;
+    position: fixed;    
+    align-items: center;
+    display: inline-block;
+}
+.music{
+    width: 1170px;
+    height: 44px;
+    align-items: center;
+    display: grid;
+}
+
+.play{
+    padding-right: 16px;
+    padding-left: 16px;
+    grid-template-columns: 188px 32px;
+    margin-left: 75px;
+    vertical-align: middle;
+    display: inline-block;
+    justify-content: center;
+}
+.shuffle-button{
+    color: #FFFFFFA3;
+    border: none;
+    width: 32px;
+    height: 24px;
+    background:transparent;
+    size: 1px;
+}
+.backward-button{
+    color: #FFFFFFA3;
+    border: none;
+    width: 28px;
+    height: 24px;
+    background:transparent;
+}
+.play-button{
+    color: #FFFFFFA3;
+    border: none;
+    width: 32px;
+    height: 28px;
+    background:transparent;
+}
+.forward-button{
+    color: #FFFFFFA3;
+    border: none;
+    width: 28px;
+    height: 24px;
+    background:transparent;
+}
+.repeat-button{
+    color: #FFFFFFA3;
+    border: none;
+    width: 32px;
+    height: 24px;
+    background:transparent;
+}
+.music-symbol{
+    width: 468px;
+    height: 44px;
+    display: inline-block;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+#music{
+    width: 44px;
+    height: 44px;
+    margin-left: 70px;
+    margin-top: 6px;
+    background-color: #3333334D;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: rgba(255, 255, 255, 0.05);
+    size: 20px;
+}
+.playlist-preview{
+    display: inline-block;
+    width: 423px;
+    height: 41px;
+    display: flex;
+    justify-content: center;
+    flex:1;
+}
+.volume{
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+}
+.sign-in{
+    width: 134px;
+    height: 28px;
+    display: grid;
+    grid-template-columns: calc(30% - 22px) minmax(40%, 900px) calc(30% + 22px);
+    grid-template-areas: "playback lcd controls";
+    align-items: center;
+    position: relative;
+}
+.menu{
+    width: 32px;
+    height: 28px;
+    align-items: center;
+    cursor: pointer;
+    line-height: inherit;
+    vertical-align: inherit;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    padding-block: 1px;
+    padding-inline: 6px;
+}

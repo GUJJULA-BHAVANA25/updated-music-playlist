@@ -1,0 +1,47 @@
+.flex-container{
+    background-color: #D60017;
+    display: flex;
+    border-radius: 0px 0px ;
+    width: 1440px;
+    height: 71.36px;
+    bottom: 0px;
+    position: fixed;
+    padding: 12px 30px;
+    left: 0px;
+    right: 0px;
+    position: 0px;
+}
+.flex{
+    width: 1239px;
+    height: 47.36px;
+}
+button{
+    background-color: rgb(254, 253, 253);
+    border: 0px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 5px;
+    align-items: center;
+   
+}
+button:hover{
+    background-color: rgb(234, 230, 230);
+}
+.text{
+    display: block;
+    width: 1239px;
+    height: 22.13px;
+    color: #FFFFFF;
+    margin: 0px;
+}
+.text1{
+    display: block;
+    size: 3.74px;
+    color: #FFFFFF;
+    width: 1239px;
+    height: 17.227px;
+    margin-top: 8px;
+    margin-bottom: 0px;
+}
